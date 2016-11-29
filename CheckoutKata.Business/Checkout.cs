@@ -9,7 +9,7 @@ namespace CheckoutKata.Business
 {
     public class Checkout
     {
-        public Guid ID { get; set; }//
+        public Guid ID { get; set; }
         public Sale Sale { get; set; }
 
         private decimal Total { get; set; }
