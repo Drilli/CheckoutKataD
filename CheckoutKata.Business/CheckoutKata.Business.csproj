@@ -40,7 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Checkout.cs" />
+    <Compile Include="Models\Checkout.cs" />
     <Compile Include="Models\Enum.cs" />
     <Compile Include="Models\IModelCollection.cs" />
     <Compile Include="Models\Item.cs" />

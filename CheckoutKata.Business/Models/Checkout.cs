@@ -5,11 +5,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CheckoutKata.Business
+namespace CheckoutKata.Business.Models
 {
     public class Checkout
     {
-        public Guid ID { get; set; }//
+        public Guid ID { get; set; }
         public Sale Sale { get; set; }
 
         private decimal Total { get; set; }
